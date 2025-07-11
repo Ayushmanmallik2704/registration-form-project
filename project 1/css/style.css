@@ -1,0 +1,103 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #306bc2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Form Container */
+form {
+  background: #fefefe;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+/* Input Groups */
+label {
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Inputs and Selects */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="file"],
+textarea,
+select {
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Group Styling for Radios & Checkboxes */
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+  font-size: 0.95rem;
+}
+
+/* Align and scale bullets */
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #4CAF50;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Submit Button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Feedback Message */
+#registerMessage {
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 5px;
+}
