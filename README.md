@@ -19,7 +19,6 @@ A fully functional, front-end registration and login system with validation, das
 
 **🌐 [Visit Website (GitHub Pages)](https://ayushmanmallik2704.github.io/registration-form-project/)**
 
-> *(Make sure you enabled GitHub Pages under Settings → Pages → `main` branch → `/root`)*
 
 ---
 
